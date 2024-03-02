@@ -25,22 +25,22 @@ header {
     justify-content: center;
 }
 
-#block-one {
+.block-img {
     background-color: rgb(168, 168, 168);
     height: 600px;
     align-content: center;
 }
 
-#block-one p {
+.block-img p {
     margin-bottom: 20px;
 }
 
-#heading {
+#heading-box {
     margin-top: 300px;
     margin-bottom: 20px;
 }
 
-#block-two {
+.block-cards {
     height: 470px;
     background-color: rgb(121, 121, 121);
 }
@@ -56,4 +56,31 @@ header {
     line-height: 1;
 }
 
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer p {
+    color: #1a1a1a;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+#tall {
+    height: 300px;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.cont .box {
+    height: 70px;
+}
 
