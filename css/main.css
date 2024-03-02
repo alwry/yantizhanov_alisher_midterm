@@ -37,7 +37,7 @@ header {
     margin-bottom: 20px;
 }
 
-#heading-box {
+.heading-box {
     margin-top: 300px;
     margin-bottom: 20px;
 }
@@ -78,7 +78,7 @@ footer p {
     font-weight: 600;
 }
 
-#tall {
+footer .tall {
     height: 300px;
 }
 
