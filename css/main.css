@@ -2,6 +2,8 @@
     display: none;
 }
 
+
+
 body, p, h1, h2, h3, h4, h5 {
     margin: 0px; 
     padding: 0px;
@@ -41,6 +43,12 @@ header {
 }
 
 .block-cards {
+    height: 470px;
+    background-color: rgb(121, 121, 121);
+    padding-bottom: 30px;
+}
+
+.block-cards-2 {
     height: 470px;
     background-color: rgb(121, 121, 121);
 }
@@ -84,3 +92,37 @@ footer p {
     height: 70px;
 }
 
+.tab {
+    display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+    .box {
+        height: 80px;
+    }
+
+    .tab {
+        display: flex;
+    }
+    
+
+    .square {
+        height: 200px;
+    }
+
+    .block-cards {
+        height: 900px;
+    }
+
+    .mob {
+        display: none;
+    }
+
+    /* .block-cards {
+        height: 600px;
+    } */
+    .block-cards .square {
+        height: 250px;
+    }
+}
