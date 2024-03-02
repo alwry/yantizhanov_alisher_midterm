@@ -92,7 +92,7 @@ footer p {
     height: 70px;
 }
 
-.tab {
+.tab, .desktop {
     display: none;
 }
 
@@ -124,5 +124,37 @@ footer p {
     } */
     .block-cards .square {
         height: 250px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .desktop {
+        display: flex;
+    }
+
+    .block-cards .tall-img {
+        height: 500px;
+        flex-direction: column;
+        padding: 25px;
+        text-align: center;
+    }
+
+
+    .block-cards {
+        height: 1200px;
+    }
+
+    .desktop-none {
+        display: none;
+    }
+
+    .button {
+        height: 70px;
+        background-color: #1a1a1a;
+        padding: 5px 100px;
+        margin-top: 30px;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
     }
 }
